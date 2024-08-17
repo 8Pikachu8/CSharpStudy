@@ -10,7 +10,6 @@ namespace ConsoleApp1
     {
         static public void show()
         {
-
             A a = new A(), b = new B(), c = new C();
             I ia = new A(), ib = new B(), ic = new C();
             Console.WriteLine($"{a.P},{b.P},{c.P},{ia.P},{ib.P},{ic.P},");
